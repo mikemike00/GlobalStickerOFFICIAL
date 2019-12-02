@@ -14,7 +14,7 @@
 </head>
 
 <body>
-   <!--   NAWIGACJA-->
+    <!--   NAWIGACJA-->
     <nav class="navbar navbar-expand-lg bg-dark nawigacja">
         <a class="navbar-brand">Witaj!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,20 +27,20 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Cennik</a>
+                    <a class="nav-link" href="#cennik">Cennik</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Co robimy?
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Szyby</a>
-                        <a class="dropdown-item" href="#">Obklejenie 100%</a>
-                        <a class="dropdown-item" href="#">Detale</a>
+                        <a class="dropdown-item" href="#szyby">Szyby</a>
+                        <a class="dropdown-item" href="#obklejenie">Obklejenie 100%</a>
+                        <a class="dropdown-item" href="#detale">Detale</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                    <a class="nav-link" href="#kontakt">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -52,7 +52,7 @@
     </header>
     <!--   END OF HEADER-->
 
-    
+
     <section class="sekcjaTekstu">
         <article class="coRobimy">
             <h4>Co robimy?</h4>
@@ -68,6 +68,7 @@
         </article>
 
     </section>
+
 
     <!--            GALERIA-->
     <div id="myCarousel" class="carousel slide container" data-ride="carousel">
@@ -104,10 +105,42 @@
         </a>
     </div>
     <!--            GALERIA STOP-->
+    <section id="cennik">
+        <h4>Cennik</h4>
+        <p>Cena jest uzależniona od rodzaju auta oraz kształtu karoserii. Ceny zaczynają się od 3 tysięcy, ale przy bardziej skomplikowanym aucie może sięgnąć nawet 10tyś. Po więcej informacji zapraszamy do <a href="#kontakt">KONTAKTU</a></p>
+    </section>
 
     <!--FOOTER SECTION-->
     <footer>
 
+        <div class="container" id="kontakt">
+            <div style="text-align:center">
+                <h4>KONTAKT</h4>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="./img/interior/zielonaListwa.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">Imię i nazwisko</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <!--
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+-->
+                        <label for="country">Czego dotyczy Twoje pytanie?</label>
+                        <select id="typPracy" name="zapytanie">
+                            <option value="cena_termin">Cena/termin</option>
+                            <option value="inne">Inne</option>
+                        </select>
+                        <label for="subject">Pisz śmiało</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
     <!--   END OF FOOTER SECTION-->
 
