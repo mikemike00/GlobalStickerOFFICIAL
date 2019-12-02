@@ -1,0 +1,43 @@
+body{
+    
+}
+header{
+    position: relative;
+    background-image: url("../img/100/eklasa/srodekEklasa.jpg");
+    background-size: cover;
+    height: 100vh;
+    
+}
+#gsLOGO{
+    position:absolute;
+    top:150px;
+    right:30px;
+    width: 50rem;
+    height: 50rem;
+    }
+.nawigacja{
+    position:static;
+    margin-bottom:0;
+    top:0px;
+    z-index: 100;
+    color: whitesmoke;
+    border: 1px solid red;
+    border-radius: 3%;
+}
+a{
+    color:whitesmoke;
+}
+a:hover{
+    color:aqua;
+}
+a:visited{
+    background-color: white;
+} /*  KOLOR ZOSTAJE NA STALE */
+
+
+/*-----------------------------------------------*/
+
+.coRobimy{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

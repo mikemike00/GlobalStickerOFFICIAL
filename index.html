@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Global Sticker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+
+
+</head>
+
+<body>
+   <!--   NAWIGACJA-->
+    <nav class="navbar navbar-expand-lg bg-dark nawigacja">
+        <a class="navbar-brand">Witaj!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nawigacjaTxt" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Strona główna <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cennik</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Co robimy?
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Szyby</a>
+                        <a class="dropdown-item" href="#">Obklejenie 100%</a>
+                        <a class="dropdown-item" href="#">Detale</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--KONIEC NAWIGACJI-->
+    <!--HEADER SECTION-->
+    <header>
+        <img id="gsLOGO" src="img/GLOBAL%20STICKER%20logo.png" alt="logo">
+    </header>
+    <!--   END OF HEADER-->
+
+    
+    <section class="sekcjaTekstu">
+        <article class="coRobimy">
+            <h4>Co robimy?</h4>
+            <p>Firma GLOBAL STICKER oferuje swoim klientom wysokiej jakości produkt – Oklejanie samochodu (Car Wrapping), który pozwala na stworzenie unikalnego wyglądu Twojego auta.
+
+                Oklejając samochód folią chroni się jednocześnie jego oryginalny lakier przed czynnikami atmosferycznymi, płowieniem lakieru i promieniami UV. W momencie usunięcia foli samochód, jego powłoka lakiernicza wygląda tak jak przed oklejeniem. Podnosi wartość samochodu w momencie jego późniejszej odsprzedaży pomimo upływu lat.
+
+                W przeciwieństwie do farb folie można bez wysiłku usunąć dzięki czemu można samochód oklejać, oklejać i jeszcze raz oklejać…</p>
+            <h4>Korzyści z obklejenia</h4>
+            <p>Oklejając samochód folią chroni się jednocześnie jego oryginalny lakier przed czynnikami atmosferycznymi, płowieniem lakieru i promieniami UV. W momencie usunięcia foli samochód, jego powłoka lakiernicza wygląda tak jak przed oklejeniem. Podnosi wartość samochodu w momencie jego późniejszej odsprzedaży pomimo upływu lat.</p>
+            <h4>Dlaczego my?</h4>
+            <p>Wykonywane przez nas usługi charakteryzują sie najwyższym profesjonalizmem oraz wysoką jakości wykonania. Gwarantujemy kompleksową opiekę zarówno w trakcie, jak i po wykonanej usłudze. Stale stawiamy przed sobą nowe wyzwania, dbając o ciągły rozwój i kładąc największy nacisk na efekt końcowy i estetykę naszej pracy.</p>
+        </article>
+
+    </section>
+
+    <!--            GALERIA-->
+    <div id="myCarousel" class="carousel slide container" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/100/audi.jpg" alt="Los Angeles">
+            </div>
+
+            <div class="item">
+                <img src="img/100/mazda3.jpg" alt="Chicago">
+            </div>
+
+            <div class="item">
+                <img src="img/100/renaultClio.jpg" alt="New York">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--            GALERIA STOP-->
+
+    <!--FOOTER SECTION-->
+    <footer>
+
+    </footer>
+    <!--   END OF FOOTER SECTION-->
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
